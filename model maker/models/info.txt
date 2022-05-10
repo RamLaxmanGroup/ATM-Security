@@ -2,3 +2,7 @@ v1 models are trained on base dataset
 v2 models are trained on base dataset + knife data
 v3 models are trained on base dataset + filtered knife data
 v4 models will be trained on base dataset + filtered knife data + augmented data (augmentataions applied: ____)
+
+The best working models are:
+atm_v4_66_4_lite1_sgd_cosine_Av1
+atm_v4_193_4_lite1_sgd_cosine_Av1-2-bg
