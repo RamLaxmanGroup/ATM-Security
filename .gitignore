@@ -1,5 +1,16 @@
-image data/
+image data/annotations/
+image data/downloaded/
+image data/renamed/
+image data/temp v3/
+image data/v2/
+image data/vdos/
+image data/zips/
+
 model maker/checkpoints/
-model maker/dataset/
+model maker/dataset/annotations/
+model maker/dataset/images/
+model maker/dataset/train/
+model maker/dataset/test/
 model maker/images/
+
 test images/
