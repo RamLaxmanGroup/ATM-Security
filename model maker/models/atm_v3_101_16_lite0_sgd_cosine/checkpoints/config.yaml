@@ -1,0 +1,115 @@
+act_type: relu6
+alpha: 0.25
+anchor_scale: 3.0
+apply_bn_for_resampling: true
+aspect_ratios:
+- 1.0
+- 2.0
+- 0.5
+autoaugment_policy: null
+backbone_config: null
+backbone_name: efficientnet-lite0
+batch_norm_trainable: true
+batch_size: 16
+box_class_repeats: 3
+box_loss_weight: 50.0
+ckpt_var_scope: null
+clip_gradients_norm: 10.0
+conv_after_downsample: false
+conv_bn_act_pattern: false
+data_format: channels_last
+dataset_type: null
+debug: false
+delta: 0.1
+drop_remainder: true
+eval_samples: 288
+first_lr_drop_epoch: 200.0
+fpn_cell_repeats: 3
+fpn_config: null
+fpn_name: null
+fpn_num_filters: 64
+fpn_weight_method: sum
+gamma: 1.5
+grad_checkpoint: false
+grid_mask: false
+heads:
+- object_detection
+image_size: !!python/tuple
+- 320
+- 320
+img_summary_steps: null
+input_rand_hflip: true
+iou_loss_type: null
+iou_loss_weight: 1.0
+is_training_bn: true
+jitter_max: 2.0
+jitter_min: 0.1
+label_map:
+    1: hammer
+    2: mask
+    3: person
+    4: smoke
+    5: knife
+    6: pistol
+    7: driller
+    8: keyboard
+    9: phone
+    10: screwdriver
+    11: laptop
+    12: mouse
+    13: helmet
+label_smoothing: 0.0
+learning_rate: 0.08
+loss_scale: null
+lr_decay_method: cosine
+lr_warmup_epoch: 1.0
+lr_warmup_init: 0.008
+map_freq: 5
+max_instances_per_image: 30
+max_level: 7
+mean_rgb: 127.0
+min_level: 3
+mixed_precision: false
+model_dir: ./checkpoints
+model_name: efficientdet-lite0
+model_optimizations: {}
+momentum: 0.9
+moving_average_decay: 0
+name: efficientdet-lite0
+nms_configs:
+    iou_thresh: null
+    max_nms_inputs: 0
+    max_output_size: 100
+    method: gaussian
+    pyfunc: false
+    score_thresh: 0.0
+    sigma: null
+num_classes: 13
+num_epochs: 1000
+num_scales: 3
+optimizer: sgd
+poly_lr_power: 0.9
+positives_momentum: null
+profile: false
+regenerate_source_id: false
+sample_image: null
+save_freq: epoch
+scale_range: false
+second_lr_drop_epoch: 250.0
+seg_num_classes: 3
+separable_conv: true
+skip_crowd_during_training: true
+skip_mismatch: true
+stddev_rgb: 128.0
+steps_per_epoch: 73
+steps_per_execution: 1
+strategy: null
+survival_prob: null
+target_size: null
+tf_random_seed: 111111
+tflite_max_detections: 20
+use_keras_model: true
+val_json_file: C:\Users\msi\AppData\Local\Temp\tmphjr3cqg0\fd42585a6188df7d3abc4e516ad0ebb5_annotations.json
+var_freeze_expr: null
+verbose: 0
+weight_decay: 4.0e-05

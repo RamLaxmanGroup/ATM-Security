@@ -1,0 +1,5 @@
+image data/
+model maker/checkpoints/
+model maker/dataset/
+model maker/images/
+test images/

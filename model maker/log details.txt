@@ -1,0 +1,33 @@
+100-epochs, 8-batchsize: 
+{'AP': 0.18177845, 'AP50': 0.3076139, 'AP75': 0.19896597, 'APs': 0.17100085, 'APm': 0.19988303, 'APl': 0.16755666, 'ARmax1': 0.017229537, 'ARmax10': 0.11568403, 'ARmax100': 0.34493417, 'ARs': 0.30052084, 'ARm': 0.38605443, 'ARl': 0.304142, 'AP_/log': 0.18177845
+det_loss: 0.5828 - cls_loss: 0.3726 - box_loss: 0.0042 - reg_l2_loss: 0.0044 - loss: 0.5871 - learning_rate: 8.4782e-07 - gradient_norm: 0.8903 - val_det_loss: 0.4216 - val_cls_loss: 0.3062 - val_box_loss: 0.0023 - val_reg_l2_loss: 0.0044 - val_loss: 0.4259
+
+
+300-epochs, 8-batchsize: 
+{'AP': 0.19797312, 'AP50': 0.32649565, 'AP75': 0.21869384, 'APs': 0.18748735, 'APm': 0.21895522, 'APl': 0.1876256, 'ARmax1': 0.017973669, 'ARmax10': 0.12839153, 'ARmax100': 0.36605608, 'ARs': 0.32291666, 'ARm': 0.4133787, 'ARl': 0.3168639, 'AP_/log': 0.19797312}
+det_loss: 0.5034 - cls_loss: 0.3349 - box_loss: 0.0034 - reg_l2_loss: 0.0046 - loss: 0.5079 - learning_rate: 9.2935e-08 - gradient_norm: 0.7751 - val_det_loss: 0.3848 - val_cls_loss: 0.2893 - val_box_loss: 0.0019 - val_reg_l2_loss: 0.0046 - val_loss: 0.3894
+
+100-epochs, 16-batchsize, final layers train:
+{'AP': 0.18679854, 'AP50': 0.31013724, 'AP75': 0.20493264, 'APs': 0.17333964, 'APm': 0.20545772, 'APl': 0.17449239, 'ARmax1': 0.017286777, 'ARmax10': 0.12180881, 'ARmax100': 0.35060102, 'ARs': 0.31770834, 'ARm': 0.39070293, 'ARl': 0.30769232, 'AP_/log': 0.18679854}
+det_loss: 0.5431 - cls_loss: 0.3499 - box_loss: 0.0039 - reg_l2_loss: 0.0044 - loss: 0.5475 - learning_rate: 1.6937e-06 - gradient_norm: 0.5599 - val_det_loss: 0.4480 - val_cls_loss: 0.3474 - val_box_loss: 0.0020 - val_reg_l2_loss: 0.0044 - val_loss: 0.4524
+
+100-epochs, 8-batchsize, whole model train:
+{'AP': 0.3039992, 'AP50': 0.44847554, 'AP75': 0.3496252, 'APs': 0.27544615, 'APm': 0.34316108, 'APl': 0.2688484, 'ARmax1': 0.01974814, 'ARmax10': 0.1551803, 'ARmax100': 0.4738981, 'ARs': 0.43645832, 'ARm': 0.5240363, 'ARl': 0.41997042, 'AP_/log': 0.3039992}
+det_loss: 0.3248 - cls_loss: 0.2226 - box_loss: 0.0020 - reg_l2_loss: 0.0629 - loss: 0.3877 - learning_rate: 8.4782e-07 - gradient_norm: 1.3817 - val_det_loss: 0.3583 - val_cls_loss: 0.3082 - val_box_loss: 0.0010 - val_reg_l2_loss: 0.0629 - val_loss: 0.4211
+
+100-epochs, 16-batchsize, whole model train:
+{'AP': 0.31065667, 'AP50': 0.46170112, 'AP75': 0.3642157, 'APs': 0.26857013, 'APm': 0.34587783, 'APl': 0.28035262, 'ARmax1': 0.019862622, 'ARmax10': 0.15569548, 'ARmax100': 0.47630224, 'ARs': 0.4625, 'ARm': 0.5263038, 'ARl': 0.41568047, 'AP_/log': 0.31065667}
+det_loss: 0.3003 - cls_loss: 0.2064 - box_loss: 0.0019 - reg_l2_loss: 0.0628 - loss: 0.3630 - learning_rate: 1.6937e-06 - gradient_norm: 0.9491 - val_det_loss: 0.3603 - val_cls_loss: 0.3064 - val_box_loss: 0.0011 - val_reg_l2_loss: 0.0628 - val_loss: 0.4230
+
+2nd train run:
+{'AP': 0.30657676, 'AP50': 0.44921845, 'AP75': 0.35766387, 'APs': 0.27203664, 'APm': 0.33562848, 'APl': 0.2847494, 'ARmax1': 0.021064682, 'ARmax10': 0.15598169, 'ARmax100': 0.47607327, 'ARs': 0.43229166, 'ARm': 0.52641726, 'ARl': 0.4235207, 'AP_/log': 0.30657676}
+det_loss: 0.3078 - cls_loss: 0.2129 - box_loss: 0.0019 - reg_l2_loss: 0.0628 - loss: 0.3705 - learning_rate: 1.6937e-06 - gradient_norm: 0.9218 - val_det_loss: 0.3573 - val_cls_loss: 0.3053 - val_box_loss: 0.0010 - val_reg_l2_loss: 0.0628 - val_loss: 0.4201
+
+100-epochs, 32-batchsize, whole model train:
+{'AP': 0.17860581, 'AP50': 0.30097613, 'AP75': 0.19404113, 'APs': 0.17366591, 'APm': 0.19348639, 'APl': 0.16984472, 'ARmax1': 0.019977104, 'ARmax10': 0.115912996, 'ARmax100': 0.34550658, 'ARs': 0.30989584, 'ARm': 0.38435373, 'ARl': 0.30532545, 'AP_/log': 0.17860581}
+det_loss: 0.5331 - cls_loss: 0.3492 - box_loss: 0.0037 - reg_l2_loss: 0.0044 - loss: 0.5375 - learning_rate: 3.2625e-06 - gradient_norm: 0.4232 - val_det_loss: 0.8083 - val_cls_loss: 0.4863 - val_box_loss: 0.0064 - val_reg_l2_loss: 0.0044 - val_loss: 0.8127
+
+1000-epochs, 16-batchsize, whole model train:
+{'AP': 0.32988426, 'AP50': 0.4750642, 'AP75': 0.37312427, 'APs': 0.30672535, 'APm': 0.3487, 'APl': 0.32303387, 'ARmax1': 0.02489983, 'ARmax10': 0.1678878, 'ARmax100': 0.5058958, 'ARs': 0.515625, 'ARm': 0.5315193, 'ARl': 0.47026628, 'AP_/log': 0.32988426}
+det_loss: 0.1281 - cls_loss: 0.0932 - box_loss: 6.9662e-04 - reg_l2_loss: 0.0599 - loss: 0.1879 - learning_rate: 1.6578e-08 - gradient_norm: 0.6929 - val_det_loss: 0.7446 - val_cls_loss: 0.6565 - val_box_loss: 0.0018 - val_reg_l2_loss: 0.0599 - val_loss: 0.8045
+

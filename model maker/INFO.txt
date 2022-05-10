@@ -1,0 +1,3 @@
+dataset folder consists of images, annotations, and are splited into train and test(validating).
+images folder consists of test images
+models folder consists of trained models.

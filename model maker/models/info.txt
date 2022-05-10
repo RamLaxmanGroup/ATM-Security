@@ -1,0 +1,4 @@
+v1 models are trained on base dataset
+v2 models are trained on base dataset + knife data
+v3 models are trained on base dataset + filtered knife data
+v4 models will be trained on base dataset + filtered knife data + augmented data (augmentataions applied: ____)
