@@ -1,0 +1,6 @@
+annotations folder consists of annotations of all the images
+images folder consists of all the images
+train folder consists of all the images for training
+test folder consists of all the images for validating during training
+
+dataset drive link: https://drive.google.com/drive/folders/1J5YRrG-FNdFvzUhgT1NE-r5HQ1vOomqj?usp=sharing
